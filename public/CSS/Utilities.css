@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bg{
+    background: linear-gradient(530deg,#193e5f 0,#2e90e8 100%);
+}
+.plain{
+    color: white;
+    text-decoration: none;
+}
+.medium{
+    font-size: 25px;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.comingSOON{
+    color: red;
+    
+}
+
+.boxshadow{
+    box-shadow:0px 0px 10px #193e5f ,0px 0px 10px#193e5f  
+}
+.textshadow{
+    text-shadow:0px 0px 10px #193e5f ,0px 0px 10px#193e5f  
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    background: #193e5f;
+}

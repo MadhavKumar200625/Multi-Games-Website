@@ -1,0 +1,182 @@
+.mainBox{
+    min-height: 70vh;
+    width: 80vw;
+    padding: 0px 0px 40px 0px;
+    display: flex;
+
+}
+
+.enterName {
+    font-size: 3vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    margin: 0px 10px;
+    
+}
+.gamesBox{
+    height: 30vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nameInput{
+    padding: 10px;
+    font-size: 2vw;
+    margin: 10px 5px;
+    width: 25vw;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 10px;    
+}
+.input button{
+    background:#2e90e8;
+    border: 0px;
+    padding: 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;    
+}
+.input button img{
+    width: 4.5vw;
+    height: 4.5vw;
+}
+.playername{
+    width: calc(25vw + 70px ) ;
+    /* margin: 8px 5px; */
+}
+.playernames{
+    border-radius: 10px;    
+    padding: 1vh 0.5vw;
+    background: #2e90e8;
+    margin: 8px 5px;
+    display: flex;
+    max-width: calc(25vw + 10px + 5vw);
+    font-size: 2vw;
+}
+
+.Xbutton{
+    /* position: ; */
+    /* margin: 0px 0px 0px calc(25vw - 70px + 80px); */
+    /* right: calc(40.2vw - 70px); */
+    padding: 0px 2px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    background: transparent;
+    outline: 0px;
+    border: 0px;
+    font-size: 1.5vw;
+}
+.playButton{
+    background:#2e90e8;
+    font-family: 'Hanken Grotesk', sans-serif;
+    border: 0px;
+    margin: 10px 10px;
+    border-radius: 10px;    
+    padding: 0px 20px;
+    font-size: 2vw;
+    color: white;
+    font-weight: 900;
+}
+
+
+.game{
+    display: none;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.playerTurnName{
+    display: flex;
+    justify-content: center;
+}
+.playerturn{
+    
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+    margin: 20px 0px;
+    font-size: 5vw;
+    max-height: 15vh;
+}
+
+.backButton{
+    position:relative;
+    display: none;
+    right: 47vw; 
+    background:#193e5f;
+    font-family: 'Hanken Grotesk', sans-serif;
+    border: 0px;
+    margin: 15px 0px;
+    max-height: 15vh;
+    border-radius: 10px;    
+    padding: 0px 20px;
+    font-size: 2vw;
+    color: white;
+    font-weight: 900;
+}
+
+.button{
+    background:#2e90e8;
+    font-family: 'Hanken Grotesk', sans-serif;
+    border: 0px;
+    margin: 55px 10px ;
+    max-height: 15vh;
+    border-radius: 10px;    
+    padding: 10px 20px;
+    font-size: 2vw;
+    color: white;
+    font-weight: 900;
+    transition: background 0.3s ease-in-out;
+}
+
+.Truth{
+    margin: 18vh 10px 0px 10px;
+
+}
+
+.TruthOrDare{
+    justify-self: center;
+    margin: 6vh 5vw;
+    min-width: 70vw; 
+    /* display: none; */
+    font-size: 4vw;
+    font-family: 'Hanken Grotesk', sans-serif;
+    
+}
+
+.line{
+    display: none;
+    align-self: center;
+    min-width: 70vw;
+    
+
+}
+
+.buttons{
+    display: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.donenotdone{
+    
+    background:#2e90e8;
+    font-family: 'Hanken Grotesk', sans-serif;
+    border: 0px;
+    margin: 25px 5vw 20px 5vw ;
+    max-height: 15vh;
+    border-radius: 10px;    
+    padding: 10px 20px;
+    font-size: 2vw;
+    color: white;
+    font-weight: 900;
+    transition: background 0.3s ease-in-out;
+}

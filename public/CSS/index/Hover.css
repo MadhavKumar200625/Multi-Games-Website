@@ -1,0 +1,7 @@
+.navbar li a:hover {
+    font-weight: 1000;
+}
+.gamesBox ul li:hover{
+    background-color: #2d6aa0;
+    transition: background-color 1s ease-in-out;
+}
